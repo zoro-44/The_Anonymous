@@ -1,0 +1,23 @@
+1. Configure Git
+git config --global user.name "Eshwar0517"
+git config --global user.email "237r1a0517@cmrtc.ac.in"
+
+2. 2. Initialize a Git Repository
+git init
+
+3. Check Repository Status
+git status
+
+4. Add Files to Staging Area
+git add .
+
+5. Commit Changes
+git commit -m "Initial commit"
+
+6.git branch - M main
+
+7.11. Add Remote Repository
+git remote add origin https://github.com/USERNAME/REPO.git
+
+8.12. Push Code to GitHub
+git push -u origin main

@@ -1,0 +1,9 @@
+ cd C:\Users\ESHWAR\OneDrive\Desktop\java-docker
+ dir
+ check both files r there
+ docker pull eclipse-temurin:17-jdk
+ docker build --progress=plain -t helloworld:1.0 .
+ docker run --name mycontainer --rm helloworld:1.0
+
+ docker build -t helloworld:1.0 .
+

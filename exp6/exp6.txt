@@ -1,0 +1,114 @@
+✅ Docker Commands — Name & Example
+1. docker --version / docker -v
+
+Example:
+
+docker --version
+
+2. docker pull
+
+Example:
+
+docker pull hello-world
+
+3. docker run
+
+Example:
+
+docker run hello-world
+
+4. docker ps
+
+Example:
+
+docker ps
+
+
+List all (running + stopped):
+
+docker ps -a
+
+5. docker restart
+
+Example:
+
+docker restart my_container
+
+6. docker kill
+
+Example:
+
+docker kill my_container
+
+7. docker build
+
+Example:
+
+docker build -t myimage .
+
+8. docker images
+
+Example:
+
+docker images
+
+9. docker search
+
+Example:
+
+docker search hello-world
+
+10. docker rmi (remove image)
+
+Example:
+
+docker rmi hello-world
+
+11. docker login
+
+Example:
+
+docker login -u eshwar
+
+12. docker push
+
+Example:
+
+docker push eshwar/myimage
+
+⭐ Container Commands
+13. Create & run a container with custom name
+
+Example:
+
+docker run --name mycontainer hello-world
+
+14. Run with port mapping
+
+Example:
+
+docker run -p 8080:80 myimage
+
+15. Run in background (detached mode)
+
+Example:
+
+docker run -d myimage
+
+16. Start a container
+
+Example:
+
+docker start mycontainer
+
+17. Stop a container
+
+Example:
+
+docker stop mycontainer
+
+18. Remove a container
+
+Example:
+
+docker rm mycontainer

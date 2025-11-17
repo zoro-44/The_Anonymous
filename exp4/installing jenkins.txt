@@ -1,0 +1,49 @@
+STEP 1 — Install Java
+winget install EclipseAdoptium.Temurin.17.JDK
+java -version
+
+
+
+⭐ STEP 2 — Download Jenkins from the Official Website
+1. Open this website:
+
+👉 www.jenkins.io
+
+2. On the homepage, click:
+
+🔹 Download
+
+3. Scroll and choose:
+
+🔹 Windows
+You will see a file named like:
+
+“Jenkins.msi” (Windows installer)
+
+4. Click Download
+
+This will download the Jenkins installer.
+
+> run as local system
+> 8080
+>if winget ; path is : C:\Program Files\Eclipse Adoptium\jdk-21\    or     C:\Program Files\Java\jdk-21\
+ C:\Program Files\Java\jdk-21/
+> install
+
+
+⭐ STEP — Unlock Jenkins
+> open http://localhost:8080
+
+✅ METHOD 2 — Open ProgramData manually
+
+Open File Explorer
+
+In the address bar, paste:  C:\ProgramData\
+Press Enter.
+
+Look for a folder named: Jenkins
+Inside it, you should see:
+
+.jenkins
+  └── secrets
+        └── initialAdminPassword
